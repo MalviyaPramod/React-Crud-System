@@ -43,7 +43,7 @@ const ReducerOne = () => {
 
   const [logicUpdate, dispathActions] = useReducer(logicReducer, intialvalue)
 
-  /*=====CallBack Functions======*/
+  /*=====All CallBack Functions======*/
 
   const getInputAndPostDataHandle = (data) => {
     const {apiStore, ...items} = data;
