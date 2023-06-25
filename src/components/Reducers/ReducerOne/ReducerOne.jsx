@@ -49,6 +49,7 @@ const ReducerOne = () => {
     const {apiStore, ...items} = data;
     axios.post(`https://643133313adb159651675889.mockapi.io/crud/crud-system`, items)
       .then((response) => {
+        console.log(response.data)
         getApiDataHandle();
       }).catch((error) => { error })
 
